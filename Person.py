@@ -9,7 +9,7 @@ class Person:
         if user_id >= len(self.name):
             return 'There is no such user'
         else:
-            return self.name[user_i]
+            return self.name[user_id]
 
 
 if __name__ == '__main__':
